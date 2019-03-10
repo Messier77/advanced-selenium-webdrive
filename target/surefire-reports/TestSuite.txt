@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.402 s <<< FAILURE! - in TestSuite
+negativeTest(com.herokuapp.theinternet.NegativeTests)  Time elapsed: 9.631 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by @Test on method negativeTest but has not been marked @Optional or defined
+in C:\eclipse-workspace\selenium-for-beginners\src\test\resources\TestSuites\testng.xml
+

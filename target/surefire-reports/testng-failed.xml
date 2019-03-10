@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="NegativeTests(failed)" verbose="0">
+    <classes>
+      <class name="com.herokuapp.theinternet.NegativeTests">
+        <methods>
+          <include name="negativeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
+    </classes>
+  </test> <!-- NegativeTests(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->
